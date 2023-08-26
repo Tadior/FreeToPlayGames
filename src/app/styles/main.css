@@ -1,0 +1,11 @@
+@import './normalize.css';
+@import './reset.css';
+@import './variables.css';
+
+body {
+  color: var(--text-color);
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
