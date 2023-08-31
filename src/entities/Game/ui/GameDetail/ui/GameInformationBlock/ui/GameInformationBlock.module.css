@@ -1,0 +1,25 @@
+.Info {
+
+}
+.Item {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+.Title {
+
+}
+.Value {
+
+}
+.requirements {
+
+}
+.requirementsItem {
+    display: flex;
+    margin-top: 3px;
+}
+.ItemReq {
+    margin: 10px 0 0 0;
+    display: block;
+}
