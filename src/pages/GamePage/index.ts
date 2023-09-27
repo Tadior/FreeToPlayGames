@@ -1,1 +1,1 @@
-export { GamePageAsync as GamePage } from './ui/GamePage.async';
+export { GamePage } from "./ui/GamePage.tsx";

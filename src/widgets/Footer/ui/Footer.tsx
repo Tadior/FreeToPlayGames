@@ -1,16 +1,15 @@
-import cls from './Footer.module.css';
-import { Container } from '@/shared/ui/Container';
-import LogoFooter from '@/shared/assets/logo-footer.png';
-import { BASE_ROUTE } from '@/shared/consts/routes';
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import Logo from "../../../assets/logo-footer.png";
+import cls from "./Footer.module.css";
+
 export const Footer = () => {
   return (
     <footer className={cls.Footer}>
-      <Container>
-        <Link to={BASE_ROUTE} className={cls.Link}>
-          <img className={cls.Logo} src={LogoFooter}></img>FreeToGame
+      <div className="container">
+        <Link to={"/"}>
+          <img className={cls.Logo} src={Logo} alt="Logo" />
         </Link>
-      </Container>
+      </div>
     </footer>
   );
 };

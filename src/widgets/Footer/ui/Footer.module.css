@@ -1,15 +1,8 @@
 .Footer {
-  padding: 5px 0;
-  background: var(--gray-color);
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.7);
 }
 .Logo {
-  max-width: 50px;
-  width: 100%;
-}
-.Link {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  color: var(--text-color);
-  font-size: 25px;
+  width: 60px;
+  margin: 0 auto;
 }

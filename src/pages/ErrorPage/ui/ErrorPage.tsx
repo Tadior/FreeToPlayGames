@@ -1,10 +1,5 @@
-import cls from './ErrorPage.module.css';
-const ErrorPage = () => {
-  return (
-    <section className={cls.ErrorPage}>
-      <h1>Error Page</h1>
-    </section>
-  );
-};
+import cls from "./ErrorPage.module.css";
 
-export default ErrorPage;
+export const ErrorPage = () => {
+  return <section className={cls.ErrorPage}>Error Page</section>;
+};
