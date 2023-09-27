@@ -43,6 +43,9 @@
   filter: brightness(70%);
   transition: inherit;
 }
+.Publisher {
+  margin-top: 5px;
+}
 .Info {
   margin-top: 15px;
 }

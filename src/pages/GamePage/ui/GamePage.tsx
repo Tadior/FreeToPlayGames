@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import { useAppDispatch } from "../../../data/store";
 import { switchFiltersVisible } from "../../../data/slices/mainSlice";
 import { useErrorStatus } from "../../../widgets/Content/ui/Content";
+import { getRussianDate } from "../../../helpers/getRussianDate/getRussianDate";
 
 export const GamePage = () => {
   const { id } = useParams();
@@ -46,7 +47,9 @@ export const GamePage = () => {
                 <li className={cls.ListItem}>Genre: {data.genre}</li>
                 <li className={cls.ListItem}>Publisher: {data.publisher}</li>
                 <li className={cls.ListItem}>Developer: {data.developer}</li>
-                <li className={cls.ListItem}>Release: {data.release_date}</li>
+                <li className={cls.ListItem}>
+                  Release: {getRussianDate(data.release_date)}
+                </li>
               </ul>
               <ul className={cls.Requirements}>
                 Operational requirements:

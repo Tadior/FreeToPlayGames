@@ -29,6 +29,7 @@ export const gamesApi = createApi({
           type: "Games",
         },
       ],
+      extraOptions: { maxRetries: 3 },
     }),
     getGameById: builder.query<GameInfo, { id: string }>({
       query: (arg) => {
@@ -39,6 +40,7 @@ export const gamesApi = createApi({
           },
         };
       },
+      extraOptions: { maxRetries: 3 },
     }),
   }),
 });

@@ -3,14 +3,6 @@
   top: 50px;
   z-index: 5;
   height: 100%;
-  @media (max-width: 450px) {
-    /* position: sticky; */
-    /* position: absolute; */
-    /* background-color: red; */
-    /* right: 0; */
-    /* top: -20px; */
-  }
-  /* width: 150px; */
 }
 .BackButton {
   margin: 0 auto;

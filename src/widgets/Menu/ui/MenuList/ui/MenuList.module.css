@@ -18,12 +18,9 @@
 }
 .Item {
   cursor: pointer;
-  /* display: grid; */
-  /* gap: 5px; */
   position: relative;
   padding: 3px 5px 3px 24px;
   transition: all ease 0.3s;
-  /* padding: 2px 0 0 0; */
 }
 .Item::first-letter {
   text-transform: uppercase;

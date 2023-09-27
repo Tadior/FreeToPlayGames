@@ -1,8 +1,8 @@
 .GamesList {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 300px));
   gap: 10px;
-  @media (max-width: 450px) {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  @media (max-width: 830px) {
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   }
 }
